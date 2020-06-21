@@ -1,1 +1,4 @@
-export class ChatController {}
+import dbConfig from "@config/db-config";
+export class ChatController {
+  dbConfig = dbConfig;
+}
