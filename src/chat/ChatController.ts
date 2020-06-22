@@ -1,4 +1,4 @@
-import dbConfig from "@config/db-config";
+import dbConfig from '@config/db-config'
 export class ChatController {
-  dbConfig = dbConfig;
+
 }
