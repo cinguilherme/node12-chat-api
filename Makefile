@@ -1,2 +1,2 @@
 build-image:
-	docker build . -t chat-api-service:latest
+	docker build . -f Dockerfile-dev -t chat-api-service-dev:latest
