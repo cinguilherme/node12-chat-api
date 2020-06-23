@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+const buf = Buffer.from('BASIC=basic')
 
 const envLoad = dotenv.config()
 if (envLoad.error) {
@@ -7,8 +8,6 @@ if (envLoad.error) {
 }
 
 const configs = envLoad.parsed
-
-console.log(configs)
 
 const app = express()
 
