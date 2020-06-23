@@ -1,10 +1,4 @@
 import express from 'express'
-import dotenv from 'dotenv'
-
-const envLoad = dotenv.config()
-if (envLoad.error) {
-  throw envLoad
-}
 
 const app = express()
 
