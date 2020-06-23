@@ -5,3 +5,5 @@
 #### DB setup
 
 #### Redis setup
+
+##### deployed to Heroku
